@@ -1,0 +1,359 @@
+.appoint-width {
+  width: 100%;
+}
+.responsive-appoint-cont {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.appoint-flex-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: 15px;
+}
+.banka {
+  display: none;
+}
+.appoint-img-div {
+  width: 30%;
+  min-width: 280px;
+  display: flex;
+  height: 280px;
+  flex-direction: column;
+  background-color: #5f6fff;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.app-doc-img {
+  width: 100%;
+  height: 280px;
+}
+.w-100-div {
+  width: 70%;
+}
+.app-doc-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: #c1c1c1;
+
+  border-radius: 10px;
+}
+.name-style {
+  color: #374151;
+  font-family: Outfit;
+  padding-left: 20px;
+}
+.degree-style {
+  color: #4b5563;
+  margin-top: -10px;
+  padding-left: 20px;
+}
+.exp {
+  color: #4b5563;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: #adadad;
+  border-radius: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 10px;
+  padding-bottom: 2px;
+  font-size: 13px;
+}
+.about-style {
+  color: #1f2937;
+  font-family: Outfit;
+  font-size: 23px;
+  margin-top: -1px;
+  padding-left: 20px;
+}
+.about-para-style {
+  color: #4b5563;
+  margin-top: -10px;
+  line-height: 22px;
+  padding-left: 20px;
+
+  font-size: 15px;
+  font-family: Outfit;
+}
+.app-fee {
+  color: black;
+  margin-top: -5px;
+  font-weight: 500;
+  padding-left: 20px;
+}
+.related-doc-div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.related-doc-li {
+  width: 25%;
+  min-width: 200px;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #c9d8ff;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.doc-img-div {
+  background-color: #eaefff;
+}
+
+.related-doc-img {
+  width: 100%;
+  height: 200px;
+  margin-bottom: -4px;
+}
+.slots-para {
+  color: #565656;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.scroll-width {
+  width: 100%;
+}
+.scroll-app {
+  overflow: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+.scroll-width ::-webkit-scrollbar {
+  display: none;
+}
+.dates-field {
+  display: inline-flex;
+  flex-direction: row;
+
+  justify-content: flex-start;
+}
+
+.dates-btn {
+  width: 80px;
+  height: 115px;
+  border: 1px solid #9ca3af;
+  border-radius: 47px;
+  background-color: white;
+  margin-right: 10px;
+  font-size: 20px;
+  font-family: Outfit;
+  line-height: 26px;
+  color: #4b5563;
+  cursor: pointer;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.active-dates-btn {
+  background-color: #5f6fff;
+  width: 80px;
+  height: 115px;
+
+  border-radius: 47px;
+  border-width: 0px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-family: Outfit;
+  line-height: 26px;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.app-page-book {
+  width: 250px;
+  height: 50px;
+  border-radius: 40px;
+  border-width: 0px;
+  background-color: #5f6fff;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/*myapp page css */
+.auto-align {
+  height: 35px;
+  display: flex;
+  margin-top: auto;
+  margin-left: auto;
+}
+.singamalai {
+  height: 45px;
+  display: flex;
+  margin-top: auto;
+  display: none;
+}
+@media (max-width: 740px) {
+  .auto-align {
+    display: none;
+  }
+  .singamalai {
+    display: block;
+  }
+}
+.konka {
+  width: 140px;
+  background-color: white;
+  border: 1px solid #bababa;
+  color: #4b5663;
+  height: 35px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (hover: hover) {
+  .konka:hover {
+    background-color: #ef4848;
+    color: white;
+  }
+}
+
+.ap-heading {
+  color: #4b5563;
+  font-size: 25px;
+  font-family: Outfit;
+  font-weight: 500;
+}
+.ap-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  border-style: solid;
+  border-color: #adadad;
+  border-top-width: 1px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.ap-img-cont {
+  background-color: #eaefff;
+  width: 180px;
+  height: 240px;
+  border-radius: 10px;
+}
+.ap-image {
+  width: 180px;
+  height: 240px;
+}
+.apDetails {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  padding: 0px;
+}
+@media (max-width: 450px) {
+  .ap-img-cont {
+    background-color: #eaefff;
+    width: 140px;
+    height: 230px;
+    border-radius: 10px;
+  }
+  .ap-image {
+    width: 140px;
+    height: 230px;
+  }
+}
+
+@media (max-width: 471px) {
+  .responsive-appoint-cont {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media (max-width: 600px) {
+  .related-doc-div {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  .related-doc-li {
+    min-width: 0;
+    width: 100%;
+    margin-left: -20px;
+  }
+  .app-doc-img {
+    height: 300px;
+  }
+  .simba {
+    text-align: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .appoint-flex-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .appoint-img-div {
+    width: 100%;
+    height: 360px;
+    display: flex;
+
+    flex-direction: column;
+    background-color: #5f6fff;
+    border-radius: 10px;
+    margin-right: 0px;
+  }
+  .app-doc-img {
+    width: 100%;
+
+    height: 360px;
+  }
+  .w-100-div {
+    width: 100%;
+  }
+  .app-doc-div {
+    background-color: white;
+    position: relative;
+    bottom: 40px;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+/*yellow-#FDDA16.*/
+.yellowstop {
+  color: #fdda16;
+  padding-left: 1px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.Redstop {
+  color: #f44336;
+  padding-left: 1px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.greenstop {
+  color: #4caf50;
+  padding-left: 1px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.bluestop {
+  color: lightskyblue;
+  padding-left: 1px;
+  font-size: 17px;
+  font-weight: 600;
+}

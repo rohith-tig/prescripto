@@ -1,0 +1,153 @@
+.about-width {
+  width: 100%;
+  transform: translateY(100%);
+  transition: transform 0.7s ease-in-out;
+}
+.responsive-about-cont {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.about-width.bottom-right {
+  opacity: 1;
+  transform: translateY(0);
+}
+.about-heading {
+  font-family: Outfit;
+  color: #4b5563;
+  text-align: center;
+  margin-bottom: 20px;
+}
+span {
+  color: #171717;
+}
+.about-flex {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.about-img {
+  width: 30%;
+  height: 380px;
+}
+.about-para {
+  margin-left: 35px;
+  font-family: Outfit;
+  font-size: 17px;
+  color: #4b5563;
+}
+.vision {
+  margin-left: 35px;
+  font-family: Outfit;
+  font-size: 17px;
+  font-weight: 600;
+}
+.about-why {
+  font-family: Outfit;
+  color: #4b5563;
+  font-size: 20px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+.why-div-flex {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.why-div {
+  width: 35%;
+  border-width: 1px;
+  border-color: #ababab;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+
+  height: 180px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.eff {
+  font-family: Outfit;
+
+  font-size: 20px;
+}
+@media (hover: hover) {
+  .why-div:hover {
+    background-color: #5f6fff;
+    color: white;
+  }
+}
+@media (max-width: 471px) {
+  .responsive-about-cont {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .about-flex {
+    flex-direction: column;
+  }
+  .about-img {
+    width: 100%;
+    height: 300px;
+  }
+  .about-para {
+    margin-left: 0px;
+  }
+  .vision {
+    margin-left: 0px;
+  }
+  .about-why {
+    margin-top: 40px;
+  }
+  .why-div-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .why-div {
+    width: 100%;
+    margin-bottom: 20px;
+
+    height: 150px;
+    padding-left: 20px;
+  }
+  .eff {
+    margin-top: -10px;
+  }
+}
+@media (min-width: 472px) and (max-width: 1006px) {
+  .about-flex {
+    flex-direction: column;
+  }
+  .about-img {
+    width: 100%;
+    height: 300px;
+  }
+  .about-para {
+    margin-left: 0px;
+  }
+  .vision {
+    margin-left: 0px;
+  }
+  .about-why {
+    margin-top: 40px;
+  }
+  .why-div-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .why-div {
+    width: 100%;
+    margin-bottom: 20px;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 130px;
+    padding-left: 20px;
+  }
+  .tttt {
+    text-align: left;
+  }
+}
+.tttt {
+  text-align: center;
+}
